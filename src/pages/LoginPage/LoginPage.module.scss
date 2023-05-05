@@ -1,0 +1,80 @@
+.LoginPage {
+  width: 576px;
+  height: 536px;
+  margin: 120px auto;
+  color: #090446;
+
+  .loginText {
+    h1 {
+      font-weight: 700;
+      font-size: 50px;
+    }
+
+    p {
+      margin-bottom: 60px;
+      font-weight: 400;
+      font-size: 20px;
+    }
+  }
+
+  .dataInputs {
+    margin-bottom: 80px;
+    .inputFields {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-weight: 400;
+        font-size: 20px;
+      }
+
+      input {
+        width: 575px;
+        border: none;
+        background: rgba(9, 4, 70, 0.2);
+        border-radius: 12px;
+        padding: 10px;
+      }
+    }
+  }
+
+  .loginRegisterBtns {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      background: #f71735;
+      border: none;
+      font-weight: 600;
+      font-size: 30px;
+      color: #fff;
+      padding: 8px;
+      cursor: pointer;
+      margin-bottom: 38px;
+
+      &:hover {
+        border: 1px #f71735 solid;
+        color: #f71735;
+        background: #fff;
+        transition: ease-in-out 0.7s;
+      }
+
+      &:active {
+        background: green;
+        // opacity: 0.5;
+      }
+    }
+
+    a {
+      font-weight: 400;
+      font-size: 20px;
+      text-decoration: none;
+      color: #090446;
+      text-align: center;
+
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}
